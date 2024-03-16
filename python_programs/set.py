@@ -1,0 +1,17 @@
+#create
+a={1,"abc",2,3,5}
+print(a)
+#add
+a.add(60)
+print(a)
+a.update(["aa",5,66])
+print(a)
+#access
+#print(a[1])
+#remove
+a.discard(3)
+print(a)
+a.remove(1)
+print(a)
+a.pop()
+print(a)
